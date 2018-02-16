@@ -1,0 +1,102 @@
+#body{
+    height: 100%;
+    background: url("../img/background.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.poema{
+    text-align: center;
+    color: #FFFFFF;
+    margin: auto;
+	padding: 10px 0;
+	width: 390px;
+}
+
+.imgs{
+    width: 50%;
+    height: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row{
+    text-align: center;
+    display: inline-block;
+}
+
+#contenido{
+    background-color: lightpink;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#collage{
+    width: 60%;
+    height: 90%;
+    margin-top: 17px;
+    margin-bottom: 20px;
+    border: double white 10px;
+}
+
+#parrafo{
+    text-align: center;
+    font-size: 17px;
+    color: #FFFFFF;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+#row_feb{
+    margin-bottom:  5px;
+}
+
+#febrero{
+    width: 75%;
+    height: 90%;
+    border: double white 10px;
+}
+#6_meses{
+    margin-bottom: 30px;
+}
+
+.imgs.imag{
+    width: 20%;
+    height: 20%;
+    border: double white 10px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 768px;
+  position: relative;
+  margin: auto;
+    text-align: center;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.0s;
+  animation-name: fade;
+  animation-duration: 1.0s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
